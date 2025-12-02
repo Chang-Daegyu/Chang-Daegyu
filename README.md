@@ -12,11 +12,15 @@
 ## ⚙️ Tech Stack
 
 <p align="center">
+  <!-- Backend / Infra -->
   <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,mysql,postgresql,mongodb,redis,aws,docker,kubernetes,nginx,linux,githubactions,git,prometheus,grafana&perline=9" />
+  <br/>
+  <!-- Frontend -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&perline=7" />
 </p>
 
-- **Backend**: Java, Spring Boot, Python, FastAPI
-- **Frontend**: JavaScript, TypeScript, React, Next.js, HTML, CSS
+- **Backend**: Java, Spring Boot, Python, FastAPI  
+- **Frontend**: JavaScript, TypeScript, React, Next.js, HTML, CSS (Tailwind CSS 등)  
 - **Data & AI**: PyTorch, scikit-learn, Pandas, NumPy  
 - **Database**: MySQL, PostgreSQL / TimescaleDB, MongoDB, Redis  
 - **Infra & DevOps**: AWS, Docker, Kubernetes, Nginx, Linux, GitHub Actions, Prometheus, Grafana  
@@ -25,44 +29,39 @@
 
 ## 📂 Projects
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
+### 1. FactoryPdM
+- **설명**: 스마트팩토리 공장 회전 설비 이상탐지 및 예지보전 플랫폼  
+- **Role**: AI & Frontend, MLOps  
 
-      <b>FactoryPdM</b><br/>
-      <sub>스마트팩토리 공장 회전 설비 이상탐지 및 예지보전 플랫폼</sub><br/>
-      <sub>Role: AI & Frontend, MLOps</sub>
-      <br/><br/>
+---
 
-      <b>NEWSBALANCE</b><br/>
-      <sub>AI 기반 정치 콘텐츠 편향도 및 정확도 분석 플랫폼</sub><br/>
-      <sub>Role: AI & Frontend</sub>
-      <br/><br/>
+### 2. NEWSBALANCE
+- **설명**: AI 기반 정치 콘텐츠 편향도 및 정확도 분석 플랫폼  
+- **Role**: AI & Frontend  
 
-      <b>TapeRunner</b><br/>
-      <sub>센서 기반 AI 러닝 헬스케어 앱</sub><br/>
-      <sub>Role: AI 모델링 & Backend</sub>
+---
 
-    </td>
-    <td valign="top" width="50%">
+### 3. TapeRunner
+- **설명**: 센서 기반 AI 러닝 헬스케어 앱  
+- **Role**: AI 모델링 & Backend  
 
-      <b>미세먼지 농도 예측 프로젝트</b><br/>
-      <sub>공공데이터 기반 미세먼지 농도 예측</sub><br/>
-      <sub>Role: Data 분석 & 모델링</sub>
-      <br/><br/>
+---
 
-      <b>스마트폰 센서 모션 분류 프로젝트</b><br/>
-      <sub>스마트폰 센서 데이터 기반 Human Activity Recognition</sub><br/>
-      <sub>Role: AI 모델링</sub>
-      <br/><br/>
+### 4. 미세먼지 농도 예측 프로젝트
+- **설명**: 공공데이터 기반 미세먼지 농도 예측  
+- **Role**: Data 분석 & 모델링  
 
-      <b>AI 기반 Agent</b><br/>
-      <sub>LLM 기반 문서·스크립트·콘텐츠 자동 생성 에이전트</sub><br/>
-      <sub>Role: Agent 설계 & 워크플로우 자동화</sub>
+---
 
-    </td>
-  </tr>
-</table>
+### 5. 스마트폰 센서 모션 분류 프로젝트
+- **설명**: 스마트폰 센서 데이터 기반 Human Activity Recognition  
+- **Role**: AI 모델링  
+
+---
+
+### 6. AI 기반 Agent
+- **설명**: LLM 기반 문서·스크립트·콘텐츠 자동 생성 에이전트  
+- **Role**: Agent 설계 & 워크플로우 자동화  
 
 ---
 

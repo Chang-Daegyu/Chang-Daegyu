@@ -29,31 +29,31 @@
 
 ## 📂 Projects
 
-### 1. FactoryPdM
+### 1. [FactoryPdM](https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM)
 - **설명**: 스마트팩토리 공장 회전 설비 이상탐지 및 예지보전 플랫폼  
 - **Role**: AI & Frontend, MLOps  
 
 ---
 
-### 2. NEWSBALANCE
+### 2. [NEWSBALANCE](https://github.com/NewsBalance/news-capstone)
 - **설명**: AI 기반 정치 콘텐츠 편향도 및 정확도 분석 플랫폼  
 - **Role**: AI & Frontend  
 
 ---
 
-### 3. TapeRunner
+### 3. [TapeRunner](https://github.com/Chang-Daegyu/TapeRunner)
 - **설명**: 센서 기반 AI 러닝 헬스케어 앱  
 - **Role**: AI 모델링 & Backend  
 
 ---
 
-### 4. 미세먼지 농도 예측 프로젝트
+### 4. [미세먼지 농도 예측 프로젝트](https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting)
 - **설명**: 공공데이터 기반 미세먼지 농도 예측  
 - **Role**: Data 분석 & 모델링  
 
 ---
 
-### 5. 스마트폰 센서 모션 분류 프로젝트
+### 5. [스마트폰 센서 모션 분류 프로젝트](https://github.com/Chang-Daegyu/smartphone-sensor-HAR-classification)
 - **설명**: 스마트폰 센서 데이터 기반 Human Activity Recognition  
 - **Role**: AI 모델링  
 

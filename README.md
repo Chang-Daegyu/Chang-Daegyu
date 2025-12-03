@@ -29,41 +29,60 @@
 
 ## 📂 Projects
 
-### 1. [FactoryPdM](https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM)
-- **설명**: 스마트팩토리 공장 회전 설비 이상탐지 및 예지보전 플랫폼  
-- **Role**: AI & Frontend, MLOps  
+<p align="center">
 
----
+  <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
+    <img src="https://img.shields.io/badge/FactoryPdM-스마트팩토리%20예지보전-4e9a06?style=for-the-badge" />
+  </a>
+  <br/>
+  스마트팩토리 회전 설비 이상탐지·예지보전 플랫폼  
+  <sub><b>Role:</b> AI & Frontend, MLOps</sub>
 
-### 2. [NEWSBALANCE](https://github.com/NewsBalance/news-capstone)
-- **설명**: AI 기반 정치 콘텐츠 편향도 및 정확도 분석 플랫폼  
-- **Role**: AI & Frontend  
+  <br/><br/>
 
----
+  <a href="https://github.com/NewsBalance/news-capstone">
+    <img src="https://img.shields.io/badge/NEWSBALANCE-정치%20콘텐츠%20편향도·정확도%20분석-3465a4?style=for-the-badge" />
+  </a>
+  <br/>
+  정치 콘텐츠 편향·정확도 분석 AI 플랫폼  
+  <sub><b>Role:</b> AI & Frontend</sub>
 
-### 3. [TapeRunner](https://github.com/Chang-Daegyu/TapeRunner)
-- **설명**: 센서 기반 AI 러닝 헬스케어 앱  
-- **Role**: AI 모델링 & Backend  
+  <br/><br/>
 
----
+  <a href="https://github.com/Chang-Daegyu/TapeRunner">
+    <img src="https://img.shields.io/badge/TapeRunner-러닝%20헬스케어%20AI-75507b?style=for-the-badge" />
+  </a>
+  <br/>
+  센서 기반 러닝 자세 분석 & 운동 보조 앱  
+  <sub><b>Role:</b> AI 모델링 & Backend</sub>
 
-### 4. [미세먼지 농도 예측 프로젝트](https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting)
-- **설명**: 공공데이터 기반 미세먼지 농도 예측  
-- **Role**: Data 분석 & 모델링  
+  <br/><br/>
 
----
+  <a href="https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting">
+    <img src="https://img.shields.io/badge/Air%20Pollution%20Forecasting-대기오염%20시계열%20예측-cc0000?style=for-the-badge" />
+  </a>  
+  <br/>
+  공공데이터 기반 미세먼지 예측  
+  <sub><b>Role:</b> Data 분석 & 모델링</sub>
 
-### 5. [스마트폰 센서 모션 분류 프로젝트](https://github.com/Chang-Daegyu/smartphone-sensor-HAR-classification)
-- **설명**: 스마트폰 센서 데이터 기반 Human Activity Recognition  
-- **Role**: AI 모델링  
+  <br/><br/>
 
----
+  <a href="https://github.com/Chang-Daegyu/smartphone-sensor-HAR-classification">
+    <img src="https://img.shields.io/badge/Smartphone%20HAR-스마트폰%20센서%20활동인식-edd400?style=for-the-badge" />
+  </a>
+  <br/>
+  스마트폰 IMU 기반 Human Activity Recognition  
+  <sub><b>Role:</b> AI 모델링</sub>
 
-### 6. AI 기반 Agent
-- **설명**: LLM 기반 문서·스크립트·콘텐츠 자동 생성 에이전트  
-- **Role**: Agent 설계 & 워크플로우 자동화  
+  <br/><br/>
 
----
+  <img src="https://img.shields.io/badge/AI%20Agent-LLM%20Workflow%20Automation-555753?style=for-the-badge" />
+  <br/>
+  LLM 기반 문서·스크립트·콘텐츠 자동 생성 에이전트  
+  <sub><b>Role:</b> Agent 설계 & 워크플로우 자동화</sub>
+
+</p>
+
 
 ## 📜 Certificates
 

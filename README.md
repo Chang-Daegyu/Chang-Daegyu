@@ -101,7 +101,7 @@
      TECH STACK (参考 스타일)
 ========================= -->
 <a id="tech-stack"></a>
-## ⚙️ Tech Stack
+## ⚙️ Tech Stack-Demo
 
 <!-- Programming Languages -->
 <p align="center">

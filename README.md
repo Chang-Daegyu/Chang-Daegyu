@@ -62,11 +62,11 @@
       </a>
     </td>
     <td align="center" width="50%">
-      🌫️ <b>Air Pollution Forecasting</b><br>
-      공공데이터 기반 <b>미세먼지 시계열 예측</b><br>
-      <sub><b>Role</b>: Data 분석 & 모델링</sub><br><br>
-      <a href="https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-FB7185?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
+      🎧 <b>CS-Navigator</b><br>
+      현대적 고객센터를 위한 <b>올인원 AI 어시스턴트</b><br>
+      <sub><b>Role</b>: Frontend 설계 & 구현</sub><br><br>
+      <a href="https://github.com/orgs/twelevegg/repositories">
+        <img src="https://img.shields.io/badge/OPEN%20REPO-1E3A8A?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
       </a>
     </td>
   </tr>
@@ -82,18 +82,17 @@
       </a>
     </td>
     <td align="center" width="50%">
-      🤖 <b>AI 기반 Agent</b><br>
-      LLM으로 <b>문서·스크립트·콘텐츠 자동 생성</b><br>
-      <sub><b>Role</b>: Agent 설계 & 워크플로우 자동화</sub><br><br>
-      <a href="#">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-CBD5E1?style=for-the-badge&logo=github&logoColor=black" alt="OPEN REPO">
+      🌫️ <b>Air Pollution Forecasting</b><br>
+      공공데이터 기반 <b>미세먼지 시계열 예측</b><br>
+      <sub><b>Role</b>: Data 분석 & 모델링</sub><br><br>
+      <a href="https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting">
+        <img src="https://img.shields.io/badge/OPEN%20REPO-FB7185?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
       </a>
     </td>
   </tr>
 </table>
 </div>
 
-<br>
 
 ---
 

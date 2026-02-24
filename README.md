@@ -25,6 +25,7 @@
 
 ---
 
+
 <!-- =========================
      PROJECTS
 ========================= -->
@@ -63,8 +64,8 @@
     </td>
     <td align="center" width="50%">
       🎧 <b>CS-Navigator</b><br>
-      현대적 고객센터를 위한 <b>올인원 AI 어시스턴트</b><br>
-      <sub><b>Role</b>: Frontend 설계 & 구현</sub><br><br>
+      실시간 마케팅 멘트 추천 & 온보딩 AI<br><b>통신사 상담원 어시스턴트</b><br>
+      <sub><b>Role</b>: Full Stack (AI, Frontend, Backend, Infra)</sub><br><br>
       <a href="https://github.com/orgs/twelevegg/repositories">
         <img src="https://img.shields.io/badge/OPEN%20REPO-1E3A8A?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
       </a>
@@ -92,6 +93,7 @@
   </tr>
 </table>
 </div>
+
 
 
 ---

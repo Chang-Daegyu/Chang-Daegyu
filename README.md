@@ -94,7 +94,14 @@
 </table>
 </div>
 
+<br>
 
+<!-- =========================
+     MORE PROJECTS VISUAL
+========================= -->
+<div align="center">
+  <img src="./more-projects-showcase.svg" alt="Chang Daegyu More Projects - Smartphone HAR, Air Pollution Forecasting, AI Library Web App" width="980">
+</div>
 
 ---
 

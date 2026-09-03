@@ -1,55 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="320" viewBox="0 0 980 320" role="img" aria-labelledby="t d">
-<title id="t">TapeRunner</title><desc id="d">Sports biometrics dashboard for smart-insole running healthcare</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340" role="img" aria-labelledby="t d">
+<title id="t">TapeRunner</title><desc id="d">Smart insole sports biometrics dashboard with detailed plantar pressure visualization</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06110D"/><stop offset="1" stop-color="#071914"/></linearGradient>
- <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
- <radialGradient id="hot"><stop offset="0" stop-color="#FDE047"/><stop offset=".35" stop-color="#FB923C"/><stop offset=".7" stop-color="#EF4444"/><stop offset="1" stop-color="#34D399" stop-opacity=".15"/></radialGradient>
- <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#5F7A70" stroke-opacity=".05"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06110D"/><stop offset="1" stop-color="#071914"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <radialGradient id="heat"><stop offset="0" stop-color="#FFF176"/><stop offset=".32" stop-color="#FB923C"/><stop offset=".62" stop-color="#EF4444"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#5F7A70" stroke-opacity=".045"/></pattern>
 </defs>
-<rect x="1" y="1" width="978" height="318" rx="20" fill="url(#bg)" stroke="#235F4D" stroke-width="2"/><rect x="1" y="1" width="978" height="318" rx="20" fill="url(#grid)"/>
+<rect x="1" y="1" width="978" height="338" rx="20" fill="url(#bg)" stroke="#235F4D" stroke-width="2"/><rect x="1" y="1" width="978" height="338" rx="20" fill="url(#grid)"/>
 
-<text x="30" y="38" fill="#789386" font-family="ui-monospace,monospace" font-size="10">SPORTS BIOMETRICS / SMART INSOLE / RUNNING ANALYSIS</text>
-<text x="30" y="79" fill="url(#mint)" font-family="ui-sans-serif,system-ui" font-size="34" font-weight="900">TapeRunner</text>
-<text x="30" y="103" fill="#CFE1D8" font-family="ui-sans-serif,system-ui" font-size="13">Turn plantar-pressure data into running feedback.</text>
-<rect x="784" y="24" width="162" height="31" rx="16" fill="#0B1813" stroke="#34D399" stroke-opacity=".45"/>
-<text x="803" y="43" fill="#8CE6BF" font-family="ui-monospace,monospace" font-size="10">OPEN RUNNING REPO ↗</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="28" y="34" fill="#789386" font-size="10">SPORTS BIOMETRICS / SMART INSOLE / RUNNING ANALYSIS</text>
+  <rect x="865" y="19" width="86" height="24" rx="12" fill="#0B1813" stroke="#34D399" stroke-opacity=".45"/>
+  <text x="908" y="35" text-anchor="middle" fill="#8CE6BF" font-size="9">OPEN REPO ↗</text>
+</g>
+<text x="28" y="78" fill="url(#mint)" font-family="ui-sans-serif,system-ui" font-size="35" font-weight="900">TapeRunner</text>
+<text x="28" y="103" fill="#CFE1D8" font-family="ui-sans-serif,system-ui" font-size="13">Smart-insole pressure data → running-session analysis → AI feedback</text>
 
-<!-- foot pressure map -->
-<g transform="translate(34 125)">
- <rect width="310" height="138" rx="18" fill="#0A1511" stroke="#295746"/>
- <text x="18" y="24" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">LIVE FOOT PRESSURE / L + R</text>
- <g transform="translate(44 33)">
-  <path d="M42 0 C20 5 12 27 17 51 C22 76 20 94 31 104 C44 116 62 103 61 85 C60 65 67 50 65 31 C63 12 55 -2 42 0Z" fill="#0D211A" stroke="#34D399" stroke-opacity=".45"/>
-  <circle cx="43" cy="22" r="16" fill="url(#hot)" opacity=".9"/><circle cx="33" cy="55" r="13" fill="url(#hot)" opacity=".75"/><circle cx="49" cy="82" r="14" fill="url(#hot)" opacity=".8"/>
+<!-- detailed plantar map -->
+<g transform="translate(28 122)">
+ <rect width="360" height="174" rx="18" fill="#0A1511" stroke="#295746"/>
+ <text x="16" y="23" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">PLANTAR PRESSURE / 16-CHANNEL FSR</text>
+
+ <!-- LEFT FOOT -->
+ <g transform="translate(50 36)">
+   <!-- toes -->
+   <circle cx="38" cy="11" r="9" fill="#10261D" stroke="#34D399" stroke-opacity=".45"/>
+   <circle cx="55" cy="6" r="7" fill="#10261D" stroke="#34D399" stroke-opacity=".42"/>
+   <circle cx="70" cy="7" r="6.2" fill="#10261D" stroke="#34D399" stroke-opacity=".4"/>
+   <circle cx="83" cy="11" r="5.6" fill="#10261D" stroke="#34D399" stroke-opacity=".38"/>
+   <circle cx="94" cy="17" r="5" fill="#10261D" stroke="#34D399" stroke-opacity=".35"/>
+   <!-- sole -->
+   <path d="M34 22 C22 31 16 45 18 60 C20 73 29 84 31 96 C33 109 25 121 31 134 C37 147 55 151 67 142 C80 132 79 116 75 103 C71 89 77 78 85 65 C94 51 100 37 92 27 C82 15 47 14 34 22Z" fill="#0F241B" stroke="#34D399" stroke-opacity=".5" stroke-width="1.5"/>
+   <!-- pressure zones -->
+   <ellipse cx="49" cy="42" rx="26" ry="18" fill="url(#heat)" opacity=".92"/>
+   <ellipse cx="68" cy="58" rx="18" ry="14" fill="url(#heat)" opacity=".65"/>
+   <ellipse cx="46" cy="91" rx="17" ry="14" fill="url(#heat)" opacity=".48"/>
+   <ellipse cx="52" cy="126" rx="20" ry="17" fill="url(#heat)" opacity=".82"/>
+   <!-- sensor dots -->
+   <g fill="#67E8F9" opacity=".72">
+    <circle cx="38" cy="42" r="2"/><circle cx="54" cy="42" r="2"/><circle cx="70" cy="50" r="2"/><circle cx="40" cy="61" r="2"/>
+    <circle cx="58" cy="72" r="2"/><circle cx="43" cy="88" r="2"/><circle cx="59" cy="99" r="2"/><circle cx="48" cy="123" r="2"/>
+   </g>
+   <text x="56" y="160" text-anchor="middle" fill="#8CE6BF" font-family="ui-monospace,monospace" font-size="9">LEFT</text>
  </g>
- <g transform="translate(177 33)">
-  <path d="M42 0 C20 5 12 27 17 51 C22 76 20 94 31 104 C44 116 62 103 61 85 C60 65 67 50 65 31 C63 12 55 -2 42 0Z" fill="#0D211A" stroke="#22D3EE" stroke-opacity=".45"/>
-  <circle cx="44" cy="20" r="15" fill="url(#hot)" opacity=".8"/><circle cx="38" cy="58" r="12" fill="url(#hot)" opacity=".65"/><circle cx="51" cy="84" r="13" fill="url(#hot)" opacity=".72"/>
+
+ <!-- RIGHT FOOT -->
+ <g transform="translate(196 36)">
+   <circle cx="62" cy="11" r="9" fill="#10261D" stroke="#22D3EE" stroke-opacity=".45"/>
+   <circle cx="45" cy="6" r="7" fill="#10261D" stroke="#22D3EE" stroke-opacity=".42"/>
+   <circle cx="30" cy="7" r="6.2" fill="#10261D" stroke="#22D3EE" stroke-opacity=".4"/>
+   <circle cx="17" cy="11" r="5.6" fill="#10261D" stroke="#22D3EE" stroke-opacity=".38"/>
+   <circle cx="6" cy="17" r="5" fill="#10261D" stroke="#22D3EE" stroke-opacity=".35"/>
+   <path d="M66 22 C78 31 84 45 82 60 C80 73 71 84 69 96 C67 109 75 121 69 134 C63 147 45 151 33 142 C20 132 21 116 25 103 C29 89 23 78 15 65 C6 51 0 37 8 27 C18 15 53 14 66 22Z" fill="#0F241B" stroke="#22D3EE" stroke-opacity=".5" stroke-width="1.5"/>
+   <ellipse cx="51" cy="42" rx="24" ry="18" fill="url(#heat)" opacity=".85"/>
+   <ellipse cx="34" cy="60" rx="16" ry="13" fill="url(#heat)" opacity=".6"/>
+   <ellipse cx="53" cy="93" rx="15" ry="13" fill="url(#heat)" opacity=".44"/>
+   <ellipse cx="47" cy="126" rx="20" ry="17" fill="url(#heat)" opacity=".76"/>
+   <g fill="#67E8F9" opacity=".72">
+    <circle cx="62" cy="42" r="2"/><circle cx="46" cy="42" r="2"/><circle cx="30" cy="50" r="2"/><circle cx="60" cy="61" r="2"/>
+    <circle cx="42" cy="72" r="2"/><circle cx="57" cy="88" r="2"/><circle cx="41" cy="99" r="2"/><circle cx="52" cy="123" r="2"/>
+   </g>
+   <text x="48" y="160" text-anchor="middle" fill="#67E8F9" font-family="ui-monospace,monospace" font-size="9">RIGHT</text>
  </g>
 </g>
 
-<!-- session metrics -->
-<g transform="translate(366 125)">
- <rect width="254" height="138" rx="18" fill="#0A1511" stroke="#295746"/>
- <text x="18" y="24" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">RUN SESSION</text>
- <g font-family="ui-monospace,monospace">
-  <text x="18" y="56" fill="#DCEAE3" font-size="11">BLE L / R</text><text x="219" y="56" text-anchor="end" fill="#86EFAC" font-size="11">CONNECTED</text>
-  <text x="18" y="80" fill="#DCEAE3" font-size="11">Sensor input</text><text x="219" y="80" text-anchor="end" fill="#67E8F9" font-size="11">16-ch FSR</text>
-  <text x="18" y="104" fill="#DCEAE3" font-size="11">UI refresh</text><text x="219" y="104" text-anchor="end" fill="#86EFAC" font-size="11">~20 Hz</text>
+<!-- session telemetry -->
+<g transform="translate(410 122)">
+ <rect width="242" height="174" rx="18" fill="#0A1511" stroke="#295746"/>
+ <text x="16" y="23" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">LIVE SESSION TELEMETRY</text>
+ <g font-family="ui-monospace,monospace" font-size="10">
+  <text x="16" y="53" fill="#DCEAE3">BLE LEFT</text><text x="215" y="53" text-anchor="end" fill="#86EFAC">CONNECTED</text>
+  <text x="16" y="76" fill="#DCEAE3">BLE RIGHT</text><text x="215" y="76" text-anchor="end" fill="#86EFAC">CONNECTED</text>
+  <text x="16" y="99" fill="#DCEAE3">INPUT</text><text x="215" y="99" text-anchor="end" fill="#67E8F9">16-ch FSR</text>
+  <text x="16" y="122" fill="#DCEAE3">UI UPDATE</text><text x="215" y="122" text-anchor="end" fill="#86EFAC">~20 Hz</text>
  </g>
- <rect x="18" y="118" width="200" height="6" rx="3" fill="#14251D"/><rect x="18" y="118" width="152" height="6" rx="3" fill="url(#mint)"/>
+ <path d="M16 148 C36 133 50 158 68 144 S100 132 118 149 S150 160 169 142 S199 134 221 149" fill="none" stroke="url(#mint)" stroke-width="2"/>
 </g>
 
-<!-- ai coach -->
-<g transform="translate(642 125)">
- <rect width="304" height="138" rx="18" fill="#0A1511" stroke="#295746"/>
- <text x="18" y="24" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">AI RUNNING COACH</text>
- <text x="18" y="53" fill="#E1EFE8" font-family="ui-sans-serif,system-ui" font-size="12" font-weight="700">Pressure balance → session analysis</text>
- <text x="18" y="77" fill="#99B5A8" font-family="ui-monospace,monospace" font-size="9">heatmap · AI feedback · taping recommendation</text>
- <rect x="18" y="94" width="268" height="26" rx="13" fill="#34D399" fill-opacity=".09" stroke="#34D399" stroke-opacity=".35"/>
- <text x="152" y="111" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,monospace" font-size="10">RUN → ANALYZE → RECOVER</text>
+<!-- analysis stack -->
+<g transform="translate(674 122)">
+ <rect width="277" height="174" rx="18" fill="#0A1511" stroke="#295746"/>
+ <text x="16" y="23" fill="#7EA394" font-family="ui-monospace,monospace" font-size="9">ANALYSIS / FEEDBACK</text>
+ <g font-family="ui-monospace,monospace" font-size="9">
+   <rect x="16" y="40" width="245" height="28" rx="8" fill="#102019" stroke="#34D399" stroke-opacity=".25"/><text x="28" y="58" fill="#D9EADF">01  Pressure heatmap</text>
+   <rect x="16" y="76" width="245" height="28" rx="8" fill="#102019" stroke="#22D3EE" stroke-opacity=".25"/><text x="28" y="94" fill="#D9EADF">02  Running-session aggregation</text>
+   <rect x="16" y="112" width="245" height="28" rx="8" fill="#102019" stroke="#34D399" stroke-opacity=".25"/><text x="28" y="130" fill="#D9EADF">03  AI feedback / recommendation</text>
+ </g>
+ <text x="16" y="158" fill="#90A99D" font-family="ui-monospace,monospace" font-size="8.5">React Native · TypeScript · BLE · SQLite</text>
 </g>
 
-<rect x="30" y="282" width="920" height="1" fill="#2B4B40"/>
-<g font-family="ui-monospace,monospace" font-size="9"><text x="30" y="303" fill="#90A99D">ROLE  AI Modeling · Backend</text><text x="220" y="303" fill="#AFC4B9">React Native · TypeScript · BLE · SQLite · AI Analysis</text><text x="758" y="303" fill="#FCD34D">대상 · 최우수상</text></g>
+<rect x="28" y="311" width="923" height="1" fill="#2B4B40"/>
+<g font-family="ui-monospace,monospace" font-size="9">
+ <text x="28" y="331" fill="#90A99D">ROLE  AI Modeling · Backend</text>
+ <text x="230" y="331" fill="#AFC4B9">Smart Insole → FSR → Live Pressure → Session → AI Analysis</text>
+ <text x="806" y="331" fill="#FCD34D">대상 · 최우수상</text>
+</g>
 </svg>

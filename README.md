@@ -31,56 +31,43 @@
 
 ## 🚀 Flagship Projects
 
-### 01 · FactoryPdM
-
 <div align="center">
-  <img src="./project-factorypdm.svg" alt="FactoryPdM - Smart Factory Predictive Maintenance" width="980">
-  <br><br>
   <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
-    <img src="https://img.shields.io/badge/VIEW%20FACTORYPDM-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="View FactoryPdM Repository">
+    <img src="./project-factorypdm.svg" alt="FactoryPdM - click to open repository" width="980">
   </a>
+  <sub>↑ Click the industrial monitoring panel to open FactoryPdM</sub>
 </div>
 
 <br>
 
-### 02 · NEWSBALANCE
-
 <div align="center">
-  <img src="./project-newsbalance.svg" alt="NEWSBALANCE - Political Content Bias Analysis and Debate Platform" width="980">
-  <br><br>
   <a href="https://github.com/NewsBalance/news-capstone">
-    <img src="https://img.shields.io/badge/VIEW%20NEWSBALANCE-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="View NEWSBALANCE Repository">
+    <img src="./project-newsbalance.svg" alt="NEWSBALANCE - click to open repository" width="980">
   </a>
+  <sub>↑ Click the media analysis board to open NEWSBALANCE</sub>
 </div>
 
 <br>
 
-### 03 · TapeRunner
-
 <div align="center">
-  <img src="./project-taperunner.svg" alt="TapeRunner - Smart Insole AI Running Healthcare" width="980">
-  <br><br>
   <a href="https://github.com/Chang-Daegyu/TapeRunner">
-    <img src="https://img.shields.io/badge/VIEW%20TAPERUNNER-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View TapeRunner Repository">
+    <img src="./project-taperunner.svg" alt="TapeRunner - click to open repository" width="980">
   </a>
+  <sub>↑ Click the biometrics dashboard to open TapeRunner</sub>
 </div>
 
 <br>
 
-### 04 · CS-Navigator
-
 <div align="center">
-  <img src="./project-csnavigator.svg" alt="CS-Navigator - AI Customer Service Copilot and Training Platform" width="980">
-  <br><br>
-  <a href="https://github.com/twelevegg/Front">
-    <img src="https://img.shields.io/badge/FRONTEND-2563EB?style=for-the-badge&logo=react&logoColor=white" alt="View CS-Navigator Frontend Repository">
+  <a href="https://github.com/orgs/twelevegg/repositories">
+    <img src="./project-csnavigator.svg" alt="CS-Navigator - click to open project repositories" width="980">
   </a>
-  <a href="https://github.com/twelevegg/spring">
-    <img src="https://img.shields.io/badge/BACKEND-16A34A?style=for-the-badge&logo=springboot&logoColor=white" alt="View CS-Navigator Backend Repository">
-  </a>
-  <a href="https://github.com/twelevegg/fastapi">
-    <img src="https://img.shields.io/badge/AI%20%2F%20FASTAPI-0891B2?style=for-the-badge&logo=fastapi&logoColor=white" alt="View CS-Navigator AI Repository">
-  </a>
+  <sub>
+    Explore components ·
+    <a href="https://github.com/twelevegg/Front">Frontend</a> ·
+    <a href="https://github.com/twelevegg/spring">Backend</a> ·
+    <a href="https://github.com/twelevegg/fastapi">AI / FastAPI</a>
+  </sub>
 </div>
 
 ---

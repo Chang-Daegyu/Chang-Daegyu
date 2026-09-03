@@ -31,44 +31,47 @@
 
 ## 🚀 Flagship Projects
 
+<br>
+
 <div align="center">
   <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
-    <img src="./project-factorypdm.svg" alt="FactoryPdM - click to open repository" width="980">
+    <img src="./project-factorypdm.svg" alt="FactoryPdM — Smart Factory Predictive Maintenance" width="980">
   </a>
-  <sub>↑ Click the industrial monitoring panel to open FactoryPdM</sub>
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <a href="https://github.com/NewsBalance/news-capstone">
-    <img src="./project-newsbalance.svg" alt="NEWSBALANCE - click to open repository" width="980">
+    <img src="./project-newsbalance.svg" alt="NEWSBALANCE — Political Content Bias Analysis and Debate Platform" width="980">
   </a>
-  <sub>↑ Click the media analysis board to open NEWSBALANCE</sub>
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <a href="https://github.com/Chang-Daegyu/TapeRunner">
-    <img src="./project-taperunner.svg" alt="TapeRunner - click to open repository" width="980">
+    <img src="./project-taperunner.svg" alt="TapeRunner — Smart Insole AI Running Healthcare" width="980">
   </a>
-  <sub>↑ Click the biometrics dashboard to open TapeRunner</sub>
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <a href="https://github.com/orgs/twelevegg/repositories">
-    <img src="./project-csnavigator.svg" alt="CS-Navigator - click to open project repositories" width="980">
+    <img src="./project-csnavigator.svg" alt="CS-Navigator — AI Customer Service Copilot and Training Platform" width="980">
   </a>
+  <br>
   <sub>
-    Explore components ·
-    <a href="https://github.com/twelevegg/Front">Frontend</a> ·
-    <a href="https://github.com/twelevegg/spring">Backend</a> ·
-    <a href="https://github.com/twelevegg/fastapi">AI / FastAPI</a>
+    <a href="https://github.com/twelevegg/Front">Frontend</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/twelevegg/spring">Spring Backend</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/twelevegg/fastapi">FastAPI / AI</a>
   </sub>
 </div>
+
+<br>
 
 ---
 

@@ -1,5 +1,5 @@
 <!-- =========================
-     NAME BADGE (pick one)
+     NAME BADGE
 ========================= -->
 <div align="center">
   <img src="./badge-daegyu-en-gradient.svg" alt="Daegyu Chang" width="980" height="240">
@@ -18,80 +18,79 @@
   <br>
 
   <a href="#projects">📂 Projects</a> ·
-  <a href="#tech-stack">⚙️ Tech Stack</a> ·
   <a href="#achievements">🏅 Achievements</a> ·
   <a href="#github-stats">📊 Stats</a>
 </div>
 
 ---
 
-
 <!-- =========================
-     PROJECTS
+     FLAGSHIP PROJECTS
 ========================= -->
 <a id="projects"></a>
-<div align="center">
-<table align="center" width="100%">
-  <!-- 1행 -->
-  <tr>
-    <td align="center" width="50%">
-      🛠️ <b>FactoryPdM</b><br>
-      스마트팩토리 회전 설비<br><b>이상탐지·예지보전&nbsp;플랫폼</b><br>
-      <sub><b>Role</b>: AI & Frontend, MLOps</sub><br><br>
-      <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-A78BFA?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
-      </a>
-    </td>
-    <td align="center" width="50%">
-      📰 <b>NEWSBALANCE</b><br>
-      정치 콘텐츠 <b>편향도·정확도 분석</b> AI 플랫폼<br>
-      <sub><b>Role</b>: AI & Frontend</sub><br><br>
-      <a href="https://github.com/NewsBalance/news-capstone">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-60A5FA?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
-      </a>
-    </td>
-  </tr>
 
-  <!-- 2행 -->
-  <tr>
-    <td align="center" width="50%">
-      🏃 <b>TapeRunner</b><br>
-      센서 기반 러닝 <b>AI 러닝 헬스케어</b> 앱<br>
-      <sub><b>Role</b>: AI 모델링 & Backend</sub><br><br>
-      <a href="https://github.com/Chang-Daegyu/TapeRunner">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-34D399?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
-      </a>
-    </td>
-    <td align="center" width="50%">
-      🎧 <b>CS-Navigator</b><br>
-      실시간 마케팅 멘트 추천 & 온보딩 AI<br><b>통신사 상담원 어시스턴트</b><br>
-      <sub><b>Role</b>: Full Stack (AI, Frontend, Backend, Infra)</sub><br><br>
-      <a href="https://github.com/orgs/twelevegg/repositories">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-1E3A8A?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
-      </a>
-    </td>
-  </tr>
-</table>
+## 🚀 Flagship Projects
+
+### 01 · FactoryPdM
+
+<div align="center">
+  <img src="./project-factorypdm.svg" alt="FactoryPdM - Smart Factory Predictive Maintenance" width="980">
+  <br><br>
+  <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
+    <img src="https://img.shields.io/badge/VIEW%20FACTORYPDM-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="View FactoryPdM Repository">
+  </a>
 </div>
 
 <br>
 
-<!-- =========================
-     MORE PROJECTS VISUAL
-========================= -->
+### 02 · NEWSBALANCE
+
 <div align="center">
-  <img src="./more-projects-showcase.svg" alt="Chang Daegyu Additional Engineering Projects - AgentSpec, AgentOps Control Plane, cryptAnalysis, AI Library Web App" width="980">
+  <img src="./project-newsbalance.svg" alt="NEWSBALANCE - Political Content Bias Analysis and Debate Platform" width="980">
+  <br><br>
+  <a href="https://github.com/NewsBalance/news-capstone">
+    <img src="https://img.shields.io/badge/VIEW%20NEWSBALANCE-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="View NEWSBALANCE Repository">
+  </a>
+</div>
+
+<br>
+
+### 03 · TapeRunner
+
+<div align="center">
+  <img src="./project-taperunner.svg" alt="TapeRunner - Smart Insole AI Running Healthcare" width="980">
+  <br><br>
+  <a href="https://github.com/Chang-Daegyu/TapeRunner">
+    <img src="https://img.shields.io/badge/VIEW%20TAPERUNNER-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View TapeRunner Repository">
+  </a>
+</div>
+
+<br>
+
+### 04 · CS-Navigator
+
+<div align="center">
+  <img src="./project-csnavigator.svg" alt="CS-Navigator - AI Customer Service Copilot and Training Platform" width="980">
+  <br><br>
+  <a href="https://github.com/twelevegg/Front">
+    <img src="https://img.shields.io/badge/FRONTEND-2563EB?style=for-the-badge&logo=react&logoColor=white" alt="View CS-Navigator Frontend Repository">
+  </a>
+  <a href="https://github.com/twelevegg/spring">
+    <img src="https://img.shields.io/badge/BACKEND-16A34A?style=for-the-badge&logo=springboot&logoColor=white" alt="View CS-Navigator Backend Repository">
+  </a>
+  <a href="https://github.com/twelevegg/fastapi">
+    <img src="https://img.shields.io/badge/AI%20%2F%20FASTAPI-0891B2?style=for-the-badge&logo=fastapi&logoColor=white" alt="View CS-Navigator AI Repository">
+  </a>
 </div>
 
 ---
 
 <!-- =========================
-     ACHIEVEMENTS (ONE-LINE • NO BULLETS)
+     ACHIEVEMENTS
 ========================= -->
 <a id="achievements"></a>
 ## 🏅 Achievements
 
-<!-- Certificates: 큼직한 뱃지 -->
 <p align="center">
   <b>Certificates</b>
 </p>
@@ -130,7 +129,6 @@
     <sub>NEWSBALANCE · 정치 콘텐츠 편향도·정확도</sub>
   </div>
 </div>
-
 
 <!-- =========================
      GITHUB STATS

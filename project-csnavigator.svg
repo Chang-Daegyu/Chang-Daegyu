@@ -1,51 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="320" viewBox="0 0 980 320" role="img" aria-labelledby="t d">
-<title id="t">CS-Navigator</title><desc id="d">Real-time call center copilot interface with STT and AI guidance</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340" role="img" aria-labelledby="t d">
+<title id="t">CS-Navigator</title><desc id="d">Real-time customer-service copilot console with transcript, AI suggestions and architecture routing</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101C"/><stop offset="1" stop-color="#0B1726"/></linearGradient>
- <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
- <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#64748B" stroke-opacity=".05"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101C"/><stop offset="1" stop-color="#0A1725"/></linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#64748B" stroke-opacity=".045"/></pattern>
 </defs>
-<rect x="1" y="1" width="978" height="318" rx="20" fill="url(#bg)" stroke="#284D6B" stroke-width="2"/><rect x="1" y="1" width="978" height="318" rx="20" fill="url(#grid)"/>
+<rect x="1" y="1" width="978" height="338" rx="20" fill="url(#bg)" stroke="#284D6B" stroke-width="2"/><rect x="1" y="1" width="978" height="338" rx="20" fill="url(#grid)"/>
 
-<text x="30" y="38" fill="#8093A9" font-family="ui-monospace,monospace" font-size="10">AICC / REAL-TIME COPILOT / AI TRAINING</text>
-<text x="30" y="79" fill="url(#brand)" font-family="ui-sans-serif,system-ui" font-size="34" font-weight="900">CS-Navigator</text>
-<text x="30" y="103" fill="#CAD7E4" font-family="ui-sans-serif,system-ui" font-size="13">Live guidance for customer-service conversations.</text>
-<rect x="772" y="24" width="174" height="31" rx="6" fill="#0A1523" stroke="#22D3EE" stroke-opacity=".4"/>
-<text x="791" y="43" fill="#8FDCEC" font-family="ui-monospace,monospace" font-size="10">PROJECT WORKSPACE ↗</text>
-
-<!-- customer transcript -->
-<g transform="translate(30 124)">
- <rect width="330" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
- <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">LIVE TRANSCRIPT / STT</text>
- <circle cx="24" cy="50" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="43" y="54" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">고객: 요금이 너무 많이 나왔어요.</text>
- <circle cx="24" cy="82" r="8" fill="#10B981" fill-opacity=".2" stroke="#34D399"/><text x="43" y="86" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">상담사: 사용 내역부터 확인해보겠습니다.</text>
- <circle cx="24" cy="114" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="43" y="118" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">고객: 결합 할인도 적용됐나요?</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+ <text x="28" y="34" fill="#8093A9" font-size="10">AICC / REAL-TIME COPILOT / TRAINING AUTOMATION</text>
+ <rect x="850" y="19" width="101" height="24" rx="5" fill="#0A1523" stroke="#22D3EE" stroke-opacity=".4"/>
+ <text x="900" y="35" text-anchor="middle" fill="#8FDCEC" font-size="9">PROJECT HUB ↗</text>
 </g>
+<text x="28" y="78" fill="url(#brand)" font-family="ui-sans-serif,system-ui" font-size="35" font-weight="900">CS-Navigator</text>
+<text x="28" y="103" fill="#CAD7E4" font-family="ui-sans-serif,system-ui" font-size="13">Real-time guidance, role-play simulation and AI-assisted training.</text>
 
-<!-- copilot suggestions -->
-<g transform="translate(382 124)">
- <rect width="270" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
- <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">AI COPILOT</text>
- <rect x="17" y="39" width="236" height="34" rx="10" fill="#2563EB" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".35"/>
- <text x="29" y="59" fill="#BFDBFE" font-family="ui-sans-serif,system-ui" font-size="10">추천 멘트 · 할인 적용 여부 설명</text>
- <rect x="17" y="81" width="236" height="34" rx="10" fill="#10B981" fill-opacity=".08" stroke="#34D399" stroke-opacity=".35"/>
- <text x="29" y="101" fill="#BBF7D0" font-family="ui-sans-serif,system-ui" font-size="10">마케팅 · 결합 상품 업셀링 제안</text>
- <circle cx="235" cy="20" r="3.5" fill="#22D3EE"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-</g>
-
-<!-- AI training / backend -->
-<g transform="translate(674 124)">
- <rect width="272" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
- <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">SYSTEM MODULES</text>
- <g font-family="ui-monospace,monospace" font-size="9">
-  <rect x="17" y="39" width="72" height="30" rx="8" fill="#172033"/><text x="53" y="58" text-anchor="middle" fill="#93C5FD">FRONT</text>
-  <rect x="100" y="39" width="72" height="30" rx="8" fill="#13251D"/><text x="136" y="58" text-anchor="middle" fill="#86EFAC">SPRING</text>
-  <rect x="183" y="39" width="72" height="30" rx="8" fill="#10232A"/><text x="219" y="58" text-anchor="middle" fill="#67E8F9">FASTAPI</text>
-  <rect x="17" y="82" width="112" height="30" rx="8" fill="#15162A"/><text x="73" y="101" text-anchor="middle" fill="#C4B5FD">RAG / QDRANT</text>
-  <rect x="140" y="82" width="115" height="30" rx="8" fill="#172033"/><text x="197" y="101" text-anchor="middle" fill="#93C5FD">TRAINING / RP</text>
+<!-- transcript console -->
+<g transform="translate(28 122)">
+ <rect width="372" height="176" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="16" y="23" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">LIVE CONVERSATION / STT</text>
+ <circle cx="344" cy="19" r="3.5" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+ <g font-family="ui-sans-serif,system-ui" font-size="10.5">
+  <rect x="16" y="39" width="340" height="34" rx="9" fill="#111E30"/><circle cx="31" cy="56" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="46" y="59" fill="#DCE7F3">고객 · 이번 달 요금이 예상보다 높아요.</text>
+  <rect x="16" y="80" width="340" height="34" rx="9" fill="#10251F"/><circle cx="31" cy="97" r="8" fill="#10B981" fill-opacity=".2" stroke="#34D399"/><text x="46" y="100" fill="#DCE7F3">상담사 · 사용 내역과 할인 적용을 확인할게요.</text>
+  <rect x="16" y="121" width="340" height="34" rx="9" fill="#111E30"/><circle cx="31" cy="138" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="46" y="141" fill="#DCE7F3">고객 · 결합 상품으로 더 줄일 수 있나요?</text>
  </g>
+ <path d="M16 165 C31 158 43 171 58 164 S87 157 102 165 S132 171 148 163 S178 158 195 165 S225 171 242 163 S272 158 290 165 S321 171 356 164" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
 </g>
 
-<rect x="30" y="282" width="920" height="1" fill="#31475E"/>
-<g font-family="ui-monospace,monospace" font-size="9"><text x="30" y="303" fill="#91A3B7">ROLE  Full Stack · AI · Backend · Frontend · Infra</text><text x="357" y="303" fill="#A9B8C8">React · Spring Boot · FastAPI · WebSocket · LangChain · Qdrant · AWS S3</text></g>
+<!-- copilot panel -->
+<g transform="translate(420 122)">
+ <rect width="282" height="176" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="16" y="23" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">AI COPILOT / NEXT BEST ACTION</text>
+ <rect x="16" y="39" width="250" height="42" rx="10" fill="#2563EB" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".35"/>
+ <text x="28" y="56" fill="#BFDBFE" font-family="ui-sans-serif,system-ui" font-size="10" font-weight="700">추천 멘트</text>
+ <text x="28" y="71" fill="#B7C7DA" font-family="ui-sans-serif,system-ui" font-size="9.5">할인 적용 여부와 청구 내역을 먼저 설명</text>
+ <rect x="16" y="89" width="250" height="42" rx="10" fill="#10B981" fill-opacity=".08" stroke="#34D399" stroke-opacity=".35"/>
+ <text x="28" y="106" fill="#BBF7D0" font-family="ui-sans-serif,system-ui" font-size="10" font-weight="700">마케팅 제안</text>
+ <text x="28" y="121" fill="#B9D4C7" font-family="ui-sans-serif,system-ui" font-size="9.5">결합 상품 / 해지방어 컨텍스트 추천</text>
+ <rect x="16" y="140" width="250" height="22" rx="11" fill="#0F211B" stroke="#34D399" stroke-opacity=".28"/>
+ <text x="141" y="155" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,monospace" font-size="9">CONTEXT → GUIDE → ACTION</text>
+</g>
+
+<!-- modules -->
+<g transform="translate(722 122)">
+ <rect width="229" height="176" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="16" y="23" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">SERVICE MODULES</text>
+ <g font-family="ui-monospace,monospace" font-size="8.7">
+  <rect x="16" y="40" width="92" height="30" rx="8" fill="#172033"/><text x="62" y="59" text-anchor="middle" fill="#93C5FD">FRONTEND</text>
+  <rect x="121" y="40" width="92" height="30" rx="8" fill="#13251D"/><text x="167" y="59" text-anchor="middle" fill="#86EFAC">SPRING API</text>
+  <rect x="16" y="79" width="92" height="30" rx="8" fill="#10232A"/><text x="62" y="98" text-anchor="middle" fill="#67E8F9">FASTAPI AI</text>
+  <rect x="121" y="79" width="92" height="30" rx="8" fill="#15162A"/><text x="167" y="98" text-anchor="middle" fill="#C4B5FD">QDRANT</text>
+  <rect x="16" y="118" width="92" height="30" rx="8" fill="#151B26"/><text x="62" y="137" text-anchor="middle" fill="#B6C6D8">TRAINING</text>
+  <rect x="121" y="118" width="92" height="30" rx="8" fill="#151B26"/><text x="167" y="137" text-anchor="middle" fill="#B6C6D8">ROLE-PLAY</text>
+ </g>
+ <text x="16" y="164" fill="#90A3B6" font-family="ui-monospace,monospace" font-size="8.2">React · Spring · FastAPI · RAG</text>
+</g>
+
+<rect x="28" y="313" width="923" height="1" fill="#31475E"/>
+<g font-family="ui-monospace,monospace" font-size="9">
+ <text x="28" y="333" fill="#91A3B7">ROLE  Full Stack · AI · Backend · Frontend · Infra</text>
+ <text x="365" y="333" fill="#A9B8C8">React → Spring Boot → FastAPI / LangGraph → Qdrant → AWS S3</text>
+</g>
 </svg>

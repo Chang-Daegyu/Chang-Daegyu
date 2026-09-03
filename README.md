@@ -18,6 +18,7 @@
   <br>
 
   <a href="#projects">📂 Projects</a> ·
+  <a href="#certifications">🎓 Certifications</a> ·
   <a href="#achievements">🏅 Achievements</a> ·
   <a href="#github-stats">📊 Stats</a>
 </div>
@@ -76,21 +77,24 @@
 ---
 
 <!-- =========================
+     CERTIFICATIONS
+========================= -->
+<a id="certifications"></a>
+## 🎓 Professional Certifications
+
+<div align="center">
+  <img src="./certifications-showcase.svg" alt="Chang Daegyu Professional Certifications" width="980">
+</div>
+
+<br>
+
+---
+
+<!-- =========================
      ACHIEVEMENTS
 ========================= -->
 <a id="achievements"></a>
 ## 🏅 Achievements
-
-<p align="center">
-  <b>Certificates</b>
-</p>
-<p align="center" style="margin-top: 6px;">
-  <img src="https://img.shields.io/badge/빅데이터분석기사-2025.07.11-0EA5E9?style=for-the-badge" height="40">
-  <img src="https://img.shields.io/badge/정보처리기사-2025.09.12-22C55E?style=for-the-badge" height="40">
-  <img src="https://img.shields.io/badge/SQLD-2025.09.19-F59E0B?style=for-the-badge" height="40">
-</p>
-
----
 
 ### 🧑‍🎓 Academic Awards
 <div align="center">

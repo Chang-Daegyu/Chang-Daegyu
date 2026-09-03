@@ -1,24 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250" role="img" aria-labelledby="t d">
-<title id="t">CS-Navigator</title><desc id="d">AI customer service copilot and training platform</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060915"/><stop offset="1" stop-color="#07172a"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient><pattern id="g" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#8390aa" stroke-opacity=".05"/></pattern><filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect x="1" y="1" width="978" height="248" rx="20" fill="url(#bg)" stroke="#285c84" stroke-width="2"/><rect x="1" y="1" width="978" height="248" rx="20" fill="url(#g)"/>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><text x="30" y="36" fill="#8a98b2" font-size="10">PROJECT://04 · AICC / REAL-TIME COPILOT / AI TRAINING</text><circle cx="932" cy="31" r="4" fill="#22D3EE"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="874" y="35" fill="#8ea0ba" font-size="9">COPILOT READY</text></g>
-<text x="30" y="80" fill="url(#a)" font-family="ui-sans-serif,system-ui" font-size="34" font-weight="800">CS-Navigator</text>
-<text x="30" y="105" fill="#d2d9e6" font-family="ui-sans-serif,system-ui" font-size="14">Real-time customer-service guidance · role-play simulation · AI training automation</text>
-<text x="30" y="132" fill="#9aa9c2" font-family="ui-monospace,monospace" font-size="10">ROLE  Full Stack · AI · Backend · Frontend · Infra</text>
-<text x="30" y="153" fill="#b8c4d6" font-family="ui-monospace,monospace" font-size="10">React · Spring Boot · FastAPI · WebSocket · LangChain · LangGraph · Qdrant · AWS S3</text>
-<text x="30" y="179" fill="#93C5FD" font-family="ui-monospace,monospace" font-size="10">Frontend / business API / AI service separated into dedicated repositories</text>
-<g transform="translate(405 65)" font-family="ui-monospace,monospace" font-size="9" text-anchor="middle">
- <g><rect x="0" y="20" width="80" height="56" rx="10" fill="#091224" stroke="#60A5FA" stroke-opacity=".55"/><text x="40" y="43" fill="#93C5FD">FRONT</text><text x="40" y="59" fill="#94a3b8">React / Vite</text></g>
- <path d="M82 48H106" stroke="#5c87bd"/><path d="M100 43l8 5-8 5" fill="none" stroke="#5c87bd"/>
- <g><rect x="110" y="20" width="92" height="56" rx="10" fill="#091224" stroke="#34D399" stroke-opacity=".55"/><text x="156" y="43" fill="#86EFAC">SPRING</text><text x="156" y="59" fill="#94a3b8">Business API</text></g>
- <path d="M204 48H228" stroke="#5e9a8b"/><path d="M222 43l8 5-8 5" fill="none" stroke="#5e9a8b"/>
- <g><rect x="232" y="20" width="96" height="56" rx="10" fill="#091224" stroke="#22D3EE" stroke-opacity=".7"/><text x="280" y="43" fill="#67E8F9">FASTAPI</text><text x="280" y="59" fill="#94a3b8">AI / RAG</text><circle cx="280" cy="21" r="3" fill="#22D3EE" filter="url(#gl)"><animate attributeName="r" values="2;4;2" dur="2.1s" repeatCount="indefinite"/></circle></g>
- <path d="M330 48H354" stroke="#559bb4"/><path d="M348 43l8 5-8 5" fill="none" stroke="#559bb4"/>
- <g><rect x="358" y="20" width="90" height="56" rx="10" fill="#091224" stroke="#A78BFA" stroke-opacity=".55"/><text x="403" y="43" fill="#C4B5FD">QDRANT</text><text x="403" y="59" fill="#94a3b8">Vector DB</text></g>
- <path d="M450 48H474" stroke="#7187ba"/><path d="M468 43l8 5-8 5" fill="none" stroke="#7187ba"/>
- <g><rect x="478" y="20" width="72" height="56" rx="10" fill="#091224" stroke="#60A5FA" stroke-opacity=".55"/><text x="514" y="43" fill="#93C5FD">AWS</text><text x="514" y="59" fill="#94a3b8">S3 / Infra</text></g>
- <path d="M12 98H538" stroke="url(#a)" stroke-opacity=".18"/><circle cy="98" r="3" fill="#67E8F9"><animate attributeName="cx" values="12;538;12" dur="6.2s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="320" viewBox="0 0 980 320" role="img" aria-labelledby="t d">
+<title id="t">CS-Navigator</title><desc id="d">Real-time call center copilot interface with STT and AI guidance</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101C"/><stop offset="1" stop-color="#0B1726"/></linearGradient>
+ <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#64748B" stroke-opacity=".05"/></pattern>
+</defs>
+<rect x="1" y="1" width="978" height="318" rx="20" fill="url(#bg)" stroke="#284D6B" stroke-width="2"/><rect x="1" y="1" width="978" height="318" rx="20" fill="url(#grid)"/>
+
+<text x="30" y="38" fill="#8093A9" font-family="ui-monospace,monospace" font-size="10">AICC / REAL-TIME COPILOT / AI TRAINING</text>
+<text x="30" y="79" fill="url(#brand)" font-family="ui-sans-serif,system-ui" font-size="34" font-weight="900">CS-Navigator</text>
+<text x="30" y="103" fill="#CAD7E4" font-family="ui-sans-serif,system-ui" font-size="13">Live guidance for customer-service conversations.</text>
+<rect x="772" y="24" width="174" height="31" rx="6" fill="#0A1523" stroke="#22D3EE" stroke-opacity=".4"/>
+<text x="791" y="43" fill="#8FDCEC" font-family="ui-monospace,monospace" font-size="10">PROJECT WORKSPACE ↗</text>
+
+<!-- customer transcript -->
+<g transform="translate(30 124)">
+ <rect width="330" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">LIVE TRANSCRIPT / STT</text>
+ <circle cx="24" cy="50" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="43" y="54" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">고객: 요금이 너무 많이 나왔어요.</text>
+ <circle cx="24" cy="82" r="8" fill="#10B981" fill-opacity=".2" stroke="#34D399"/><text x="43" y="86" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">상담사: 사용 내역부터 확인해보겠습니다.</text>
+ <circle cx="24" cy="114" r="8" fill="#2563EB" fill-opacity=".25" stroke="#60A5FA"/><text x="43" y="118" fill="#DCE7F3" font-family="ui-sans-serif,system-ui" font-size="11">고객: 결합 할인도 적용됐나요?</text>
 </g>
-<rect x="30" y="211" width="920" height="1" fill="#303b56"/><text x="30" y="232" fill="#7889a5" font-family="ui-monospace,monospace" font-size="9">Counselor UI → Spring API → FastAPI AI / RAG → Vector DB / Storage</text><text x="834" y="232" fill="#67E8F9" font-family="ui-monospace,monospace" font-size="9">SERVICE FLOW</text>
+
+<!-- copilot suggestions -->
+<g transform="translate(382 124)">
+ <rect width="270" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">AI COPILOT</text>
+ <rect x="17" y="39" width="236" height="34" rx="10" fill="#2563EB" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".35"/>
+ <text x="29" y="59" fill="#BFDBFE" font-family="ui-sans-serif,system-ui" font-size="10">추천 멘트 · 할인 적용 여부 설명</text>
+ <rect x="17" y="81" width="236" height="34" rx="10" fill="#10B981" fill-opacity=".08" stroke="#34D399" stroke-opacity=".35"/>
+ <text x="29" y="101" fill="#BBF7D0" font-family="ui-sans-serif,system-ui" font-size="10">마케팅 · 결합 상품 업셀링 제안</text>
+ <circle cx="235" cy="20" r="3.5" fill="#22D3EE"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- AI training / backend -->
+<g transform="translate(674 124)">
+ <rect width="272" height="140" rx="16" fill="#0A1421" stroke="#30465F"/>
+ <text x="17" y="24" fill="#7F93AA" font-family="ui-monospace,monospace" font-size="9">SYSTEM MODULES</text>
+ <g font-family="ui-monospace,monospace" font-size="9">
+  <rect x="17" y="39" width="72" height="30" rx="8" fill="#172033"/><text x="53" y="58" text-anchor="middle" fill="#93C5FD">FRONT</text>
+  <rect x="100" y="39" width="72" height="30" rx="8" fill="#13251D"/><text x="136" y="58" text-anchor="middle" fill="#86EFAC">SPRING</text>
+  <rect x="183" y="39" width="72" height="30" rx="8" fill="#10232A"/><text x="219" y="58" text-anchor="middle" fill="#67E8F9">FASTAPI</text>
+  <rect x="17" y="82" width="112" height="30" rx="8" fill="#15162A"/><text x="73" y="101" text-anchor="middle" fill="#C4B5FD">RAG / QDRANT</text>
+  <rect x="140" y="82" width="115" height="30" rx="8" fill="#172033"/><text x="197" y="101" text-anchor="middle" fill="#93C5FD">TRAINING / RP</text>
+ </g>
+</g>
+
+<rect x="30" y="282" width="920" height="1" fill="#31475E"/>
+<g font-family="ui-monospace,monospace" font-size="9"><text x="30" y="303" fill="#91A3B7">ROLE  Full Stack · AI · Backend · Frontend · Infra</text><text x="357" y="303" fill="#A9B8C8">React · Spring Boot · FastAPI · WebSocket · LangChain · Qdrant · AWS S3</text></g>
 </svg>

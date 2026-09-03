@@ -35,7 +35,7 @@
 
 <div align="center">
   <a href="https://github.com/KSEB-FactoryPdM/KSEB_FactoryPdM">
-    <img src="./project-factorypdm.svg" alt="FactoryPdM — Smart Factory Predictive Maintenance" width="980">
+    <img src="./assets/factorypdm-dashboard.webp" alt="FactoryPdM — Smart Factory Predictive Maintenance" width="980">
   </a>
 </div>
 
@@ -43,7 +43,7 @@
 
 <div align="center">
   <a href="https://github.com/NewsBalance/news-capstone">
-    <img src="./project-newsbalance.svg" alt="NEWSBALANCE — Political Content Bias Analysis and Debate Platform" width="980">
+    <img src="./assets/newsbalance-dashboard.webp" alt="NEWSBALANCE — Political Content Bias Analysis and Debate Platform" width="980">
   </a>
 </div>
 
@@ -51,7 +51,7 @@
 
 <div align="center">
   <a href="https://github.com/Chang-Daegyu/TapeRunner">
-    <img src="./project-taperunner.svg" alt="TapeRunner — Smart Insole AI Running Healthcare" width="980">
+    <img src="./assets/taperunner-dashboard.webp" alt="TapeRunner — Smart Insole AI Running Healthcare" width="980">
   </a>
 </div>
 
@@ -59,7 +59,7 @@
 
 <div align="center">
   <a href="https://github.com/orgs/twelevegg/repositories">
-    <img src="./project-csnavigator.svg" alt="CS-Navigator — AI Customer Service Copilot and Training Platform" width="980">
+    <img src="./assets/csnavigator-dashboard.webp" alt="CS-Navigator — AI Customer Service Copilot and Training Platform" width="980">
   </a>
   <br>
   <sub>

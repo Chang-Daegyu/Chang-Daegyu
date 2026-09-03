@@ -83,7 +83,11 @@
 ## 🎓 Professional Certifications
 
 <div align="center">
-  <img src="./certifications-showcase.svg" alt="Chang Daegyu Professional Certifications" width="980">
+  <a href="https://zircon-leopon-198.notion.site/daegyu-files" title="자격증 및 상장 증빙자료 보기">
+    <img src="./certifications-showcase.svg" alt="Chang Daegyu Professional Certifications — click to view verification documents" width="980" title="자격증 및 상장 증빙자료 보기">
+  </a>
+  <br>
+  <sub>Click the certification panel to view verification documents.</sub>
 </div>
 
 <br>

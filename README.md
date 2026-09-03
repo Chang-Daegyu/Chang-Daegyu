@@ -71,26 +71,6 @@
       </a>
     </td>
   </tr>
-
-  <!-- 3행 -->
-  <tr>
-    <td align="center" width="50%">
-      📱 <b>Smartphone HAR</b><br>
-      스마트폰 IMU 기반 <b>Human Activity Recognition</b><br>
-      <sub><b>Role</b>: AI 모델링</sub><br><br>
-      <a href="https://github.com/Chang-Daegyu/smartphone-sensor-HAR-classification">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-FBBF24?style=for-the-badge&logo=github&logoColor=black" alt="OPEN REPO">
-      </a>
-    </td>
-    <td align="center" width="50%">
-      🌫️ <b>Air Pollution Forecasting</b><br>
-      공공데이터 기반 <b>미세먼지 시계열 예측</b><br>
-      <sub><b>Role</b>: Data 분석 & 모델링</sub><br><br>
-      <a href="https://github.com/Chang-Daegyu/AirPollution-Timeseries-Forecasting">
-        <img src="https://img.shields.io/badge/OPEN%20REPO-FB7185?style=for-the-badge&logo=github&logoColor=white" alt="OPEN REPO">
-      </a>
-    </td>
-  </tr>
 </table>
 </div>
 
@@ -100,7 +80,7 @@
      MORE PROJECTS VISUAL
 ========================= -->
 <div align="center">
-  <img src="./more-projects-showcase.svg" alt="Chang Daegyu More Projects - Smartphone HAR, Air Pollution Forecasting, AI Library Web App" width="980">
+  <img src="./more-projects-showcase.svg" alt="Chang Daegyu Additional Engineering Projects - AgentSpec, AgentOps Control Plane, cryptAnalysis, AI Library Web App" width="980">
 </div>
 
 ---

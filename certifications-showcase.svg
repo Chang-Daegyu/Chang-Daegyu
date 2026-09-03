@@ -1,113 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="286" viewBox="0 0 980 286" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="292" viewBox="0 0 980 292" role="img" aria-labelledby="title desc">
   <title id="title">Chang Daegyu Professional Certifications</title>
-  <desc id="desc">Professional certifications for information security, data analysis, software engineering, SQL, and big data analysis.</desc>
+  <desc id="desc">Animated professional certification panel with subtle moving light reflection and sequential card emphasis.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070A12"/>
-      <stop offset="0.55" stop-color="#0A1020"/>
+      <stop offset="0.52" stop-color="#0A1020"/>
       <stop offset="1" stop-color="#080C16"/>
     </linearGradient>
     <linearGradient id="headline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E2E8F0"/>
-      <stop offset="0.45" stop-color="#93C5FD"/>
+      <stop offset="0" stop-color="#F1F5F9"/>
+      <stop offset="0.48" stop-color="#93C5FD"/>
       <stop offset="1" stop-color="#C4B5FD"/>
     </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.34" stop-color="#FFFFFF" stop-opacity="0.012"/>
+      <stop offset="0.50" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="0.66" stop-color="#BFE7FF" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0H0V22" fill="none" stroke="#64748B" stroke-opacity="0.035"/>
+      <path d="M22 0H0V22" fill="none" stroke="#64748B" stroke-opacity="0.032"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <clipPath id="panelClip"><rect x="1" y="1" width="978" height="290" rx="18"/></clipPath>
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="978" height="284" rx="18" fill="url(#bg)" stroke="#263246" stroke-width="2"/>
-  <rect x="1" y="1" width="978" height="284" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="978" height="290" rx="18" fill="url(#bg)" stroke="#263246" stroke-width="2"/>
+  <rect x="1" y="1" width="978" height="290" rx="18" fill="url(#grid)"/>
 
-  <!-- header -->
-  <text x="32" y="38" fill="url(#headline)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="24" font-weight="800" letter-spacing="1">PROFESSIONAL CERTIFICATIONS</text>
-  <text x="32" y="58" fill="#728198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.2">SECURITY · DATA · SOFTWARE · DATABASE</text>
-  <circle cx="862" cy="37" r="4" fill="#34D399" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.7s" repeatCount="indefinite"/></circle>
-  <text x="875" y="41" fill="#8292A7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">5 CERTIFICATIONS</text>
-  <rect x="32" y="70" width="916" height="1" fill="#263449"/>
+  <text x="32" y="39" fill="url(#headline)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="24" font-weight="800" letter-spacing="1">PROFESSIONAL CERTIFICATIONS</text>
+  <text x="32" y="59" fill="#728198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.2">SECURITY · DATA · SOFTWARE · DATABASE</text>
+  <circle cx="856" cy="37" r="4" fill="#34D399" filter="url(#dotGlow)"><animate attributeName="opacity" values="1;.28;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="869" y="41" fill="#8292A7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">5 CERTIFICATIONS</text>
+  <rect x="32" y="71" width="916" height="1" fill="#263449"/>
 
-  <!-- card 1: 정보보안기사 -->
-  <g transform="translate(32 88)">
-    <rect width="286" height="78" rx="13" fill="#0B1120" stroke="#6D5CE7" stroke-opacity="0.55"/>
-    <rect x="0" y="0" width="5" height="78" rx="2.5" fill="#8B5CF6"/>
-    <g transform="translate(18 17)" fill="none" stroke="#C4B5FD" stroke-width="1.7" stroke-linejoin="round">
-      <path d="M14 0 L27 5 V15 C27 24 21 31 14 35 C7 31 1 24 1 15 V5 Z"/>
-      <path d="M8 16l4 4 8-9"/>
-    </g>
-    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">정보보안기사</text>
-    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">INFORMATION SECURITY ENGINEER</text>
-    <text x="62" y="64" fill="#C4B5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2026.08</text>
-    <rect x="210" y="48" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
-    <text x="239" y="60" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
+  <!-- Security -->
+  <g transform="translate(32 89)">
+    <rect width="286" height="79" rx="13" fill="#0B1120" stroke="#6D5CE7" stroke-opacity="0.55"/>
+    <rect width="286" height="79" rx="13" fill="#8B5CF6" opacity="0"><animate attributeName="opacity" values="0;0.15;0.035;0" keyTimes="0;.10;.32;1" dur="7.2s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="79" rx="2.5" fill="#8B5CF6"/>
+    <g transform="translate(18 18)" fill="none" stroke="#C4B5FD" stroke-width="1.7" stroke-linejoin="round"><path d="M14 0 L27 5 V15 C27 24 21 31 14 35 C7 31 1 24 1 15 V5 Z"/><path d="M8 16l4 4 8-9"/></g>
+    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,Apple SD Gothic Neo,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">정보보안기사</text>
+    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.7">INFORMATION SECURITY ENGINEER</text>
+    <text x="62" y="65" fill="#C4B5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2026.08</text>
+    <rect x="210" y="49" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/><text x="239" y="61" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
   </g>
 
-  <!-- card 2: ADsP -->
-  <g transform="translate(347 88)">
-    <rect width="286" height="78" rx="13" fill="#0B1120" stroke="#22D3EE" stroke-opacity="0.48"/>
-    <rect x="0" y="0" width="5" height="78" rx="2.5" fill="#22D3EE"/>
-    <g transform="translate(18 18)" fill="none" stroke="#67E8F9" stroke-width="1.6" stroke-linecap="round">
-      <path d="M2 31V18M10 31V10M18 31V22M26 31V4"/>
-      <path d="M0 31H29"/>
-      <circle cx="10" cy="10" r="2" fill="#67E8F9"/>
-      <circle cx="26" cy="4" r="2" fill="#67E8F9"/>
-    </g>
-    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">ADsP</text>
-    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">ADVANCED DATA ANALYTICS SEMI-PRO</text>
-    <text x="62" y="64" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2026.06</text>
-    <rect x="210" y="48" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
-    <text x="239" y="60" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
+  <!-- ADsP -->
+  <g transform="translate(347 89)">
+    <rect width="286" height="79" rx="13" fill="#0B1120" stroke="#22D3EE" stroke-opacity="0.50"/>
+    <rect width="286" height="79" rx="13" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.13;0.03;0" keyTimes="0;.10;.32;1" dur="7.2s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="79" rx="2.5" fill="#22D3EE"/>
+    <g transform="translate(18 19)" fill="none" stroke="#67E8F9" stroke-width="1.6" stroke-linecap="round"><path d="M2 31V18M10 31V10M18 31V22M26 31V4"/><path d="M0 31H29"/><circle cx="10" cy="10" r="2" fill="#67E8F9"/><circle cx="26" cy="4" r="2" fill="#67E8F9"/></g>
+    <text x="62" y="27" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">ADsP</text>
+    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.7">ADVANCED DATA ANALYTICS SEMI-PRO</text>
+    <text x="62" y="65" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2026.06</text>
+    <rect x="210" y="49" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/><text x="239" y="61" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
   </g>
 
-  <!-- card 3: 정보처리기사 -->
-  <g transform="translate(662 88)">
-    <rect width="286" height="78" rx="13" fill="#0B1120" stroke="#34D399" stroke-opacity="0.48"/>
-    <rect x="0" y="0" width="5" height="78" rx="2.5" fill="#34D399"/>
-    <g transform="translate(18 20)" fill="none" stroke="#86EFAC" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M10 2L2 10l8 8M20 2l8 8-8 8"/>
-      <path d="M17 0l-4 22"/>
-      <rect x="4" y="27" width="22" height="7" rx="2"/>
-    </g>
-    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">정보처리기사</text>
-    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">INFORMATION PROCESSING ENGINEER</text>
-    <text x="62" y="64" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.09</text>
-    <rect x="210" y="48" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
-    <text x="239" y="60" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
+  <!-- Information Processing -->
+  <g transform="translate(662 89)">
+    <rect width="286" height="79" rx="13" fill="#0B1120" stroke="#34D399" stroke-opacity="0.48"/>
+    <rect width="286" height="79" rx="13" fill="#34D399" opacity="0"><animate attributeName="opacity" values="0;0.12;0.028;0" keyTimes="0;.10;.32;1" dur="7.2s" begin="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="79" rx="2.5" fill="#34D399"/>
+    <g transform="translate(18 21)" fill="none" stroke="#86EFAC" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2L2 10l8 8M20 2l8 8-8 8"/><path d="M17 0l-4 22"/><rect x="4" y="27" width="22" height="7" rx="2"/></g>
+    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,Apple SD Gothic Neo,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">정보처리기사</text>
+    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.7">INFORMATION PROCESSING ENGINEER</text>
+    <text x="62" y="65" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.09</text>
+    <rect x="210" y="49" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/><text x="239" y="61" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
   </g>
 
-  <!-- card 4: SQLD -->
-  <g transform="translate(190 184)">
-    <rect width="286" height="78" rx="13" fill="#0B1120" stroke="#F59E0B" stroke-opacity="0.48"/>
-    <rect x="0" y="0" width="5" height="78" rx="2.5" fill="#F59E0B"/>
-    <g transform="translate(18 18)" fill="none" stroke="#FBBF24" stroke-width="1.6">
-      <ellipse cx="15" cy="5" rx="12" ry="5"/>
-      <path d="M3 5v22c0 3 5 5 12 5s12-2 12-5V5"/>
-      <path d="M3 15c0 3 5 5 12 5s12-2 12-5M3 25c0 3 5 5 12 5s12-2 12-5"/>
-    </g>
-    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">SQLD</text>
-    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">SQL DEVELOPER</text>
-    <text x="62" y="64" fill="#FBBF24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.09</text>
-    <rect x="210" y="48" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
-    <text x="239" y="60" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
+  <!-- SQLD -->
+  <g transform="translate(190 187)">
+    <rect width="286" height="79" rx="13" fill="#0B1120" stroke="#F59E0B" stroke-opacity="0.48"/>
+    <rect width="286" height="79" rx="13" fill="#F59E0B" opacity="0"><animate attributeName="opacity" values="0;0.12;0.028;0" keyTimes="0;.10;.32;1" dur="7.2s" begin="4.1s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="79" rx="2.5" fill="#F59E0B"/>
+    <g transform="translate(18 19)" fill="none" stroke="#FBBF24" stroke-width="1.6"><ellipse cx="15" cy="5" rx="12" ry="5"/><path d="M3 5v22c0 3 5 5 12 5s12-2 12-5V5"/><path d="M3 15c0 3 5 5 12 5s12-2 12-5M3 25c0 3 5 5 12 5s12-2 12-5"/></g>
+    <text x="62" y="27" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">SQLD</text>
+    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.7">SQL DEVELOPER</text>
+    <text x="62" y="65" fill="#FBBF24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.09</text>
+    <rect x="210" y="49" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/><text x="239" y="61" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
   </g>
 
-  <!-- card 5: 빅데이터분석기사 -->
-  <g transform="translate(504 184)">
-    <rect width="286" height="78" rx="13" fill="#0B1120" stroke="#60A5FA" stroke-opacity="0.48"/>
-    <rect x="0" y="0" width="5" height="78" rx="2.5" fill="#60A5FA"/>
-    <g transform="translate(17 17)" fill="none" stroke="#93C5FD" stroke-width="1.6" stroke-linecap="round">
-      <circle cx="6" cy="7" r="4"/><circle cx="25" cy="5" r="4"/><circle cx="15" cy="21" r="4"/><circle cx="29" cy="28" r="4"/><circle cx="4" cy="31" r="4"/>
-      <path d="M9 9l12-2M8 10l5 8M18 20l8-12M18 23l8 4M11 23l-5 5"/>
-    </g>
-    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">빅데이터분석기사</text>
-    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">BIG DATA ANALYSIS ENGINEER</text>
-    <text x="62" y="64" fill="#93C5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.07</text>
-    <rect x="210" y="48" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
-    <text x="239" y="60" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
+  <!-- Big Data -->
+  <g transform="translate(504 187)">
+    <rect width="286" height="79" rx="13" fill="#0B1120" stroke="#60A5FA" stroke-opacity="0.48"/>
+    <rect width="286" height="79" rx="13" fill="#60A5FA" opacity="0"><animate attributeName="opacity" values="0;0.13;0.03;0" keyTimes="0;.10;.32;1" dur="7.2s" begin="5.4s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="79" rx="2.5" fill="#60A5FA"/>
+    <g transform="translate(17 18)" fill="none" stroke="#93C5FD" stroke-width="1.6" stroke-linecap="round"><circle cx="6" cy="7" r="4"/><circle cx="25" cy="5" r="4"/><circle cx="15" cy="21" r="4"/><circle cx="29" cy="28" r="4"/><circle cx="4" cy="31" r="4"/><path d="M9 9l12-2M8 10l5 8M18 20l8-12M18 23l8 4M11 23l-5 5"/></g>
+    <text x="62" y="27" fill="#F1F5F9" font-family="Pretendard,Noto Sans KR,Apple SD Gothic Neo,ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800">빅데이터분석기사</text>
+    <text x="62" y="45" fill="#8D9CB1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.7">BIG DATA ANALYSIS ENGINEER</text>
+    <text x="62" y="65" fill="#93C5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700">2025.07</text>
+    <rect x="210" y="49" width="58" height="18" rx="9" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/><text x="239" y="61" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">CERTIFIED</text>
   </g>
+
+  <!-- moving restrained reflection -->
+  <g clip-path="url(#panelClip)" pointer-events="none">
+    <rect x="-250" y="74" width="125" height="205" fill="url(#shine)" transform="skewX(-14)" opacity="0.72"><animate attributeName="x" values="-250;1160" dur="7.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <text x="948" y="282" text-anchor="end" fill="#46556A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5">VERIFIED PROFESSIONAL CREDENTIALS</text>
 </svg>
